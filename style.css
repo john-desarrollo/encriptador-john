@@ -1,0 +1,135 @@
+*{
+    
+    background-color: #cee1ee;
+    font-family: 'Lobster';
+    font-size: 32px;
+    line-height: 100%;
+   
+    
+    }
+    
+
+    .logo{
+        padding-top: 3px;
+        margin-left: 5px;
+        width: 10%;        
+    }
+    
+    .titulo-principal{
+        
+        text-align: center;
+        font-size: 70px ; 
+        margin: 0 0 0em;
+        clear: left;
+        color: #0e85b4;
+    }
+
+    main{
+        display: flex;
+        margin-bottom: 80px;
+        margin-left: 185px;
+         
+        
+    }
+
+    .textoGuia{
+        color: white;
+        margin-top: 50px;
+        text-transform: lowercase;
+        border: none;
+        background-image: linear-gradient(125deg, #124bb5, #1099cf, #0f2a64,#150eea,#13889d,#075270, #093b71);
+        width: 530px;
+        height: 410px;
+        box-shadow: 10px 10px 30px 15px #5b5959d6;
+        border-radius: 18px;
+    }
+
+    .placeholder{
+        color: black;
+    }
+    .textoGuia:focus{
+        outline: none;
+    }
+    .mensaje{
+        background-image: url(Imagenes/Muñeco.png), linear-gradient(125deg, #124bb5, #128aba, #0f2a64,#0d48c6,#415e80,#075270, #093b71);
+        border: none;
+        background-position: center;
+        border-radius: 18px;
+        color: white;
+        background-repeat: no-repeat;
+        overflow: auto ;
+        padding-left: 20px;
+        width: 310px;
+        height: 525px;
+        margin-top: 50px;
+        margin-left: 135px;
+        box-shadow: 10px 10px 30px 15px #000000d6;   
+        position: absolute;   
+    }
+
+    .mensaje:focus{
+        outline: none;
+       
+    }
+    .botones{
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .botonUno{
+        background-image: linear-gradient(125deg, #124bb5, #128aba, #0f2a64,#0d48c6,#415e80,#075270, #093b71);
+        border-radius: 15px;
+        border:1px solid #ffffff;
+        color: #ffffff;
+        cursor: pointer;
+        height: 55px;
+        width: 250px;}
+
+    .botonUno:hover{
+        background-image: linear-gradient(125deg, #0400d4, #505e88, #2c4197,#154769,#416980,#24848d, #255075);
+        transform: scale(1.1);
+    }
+
+    
+
+    .botonDos{
+        background-image: linear-gradient(145deg, #0a8199, #152641, #103f66,#092a3a,#06474f,#1c9276, #119c5b);
+        border-radius: 15px;
+        border:1px solid #ffffff;
+        color: #ffffff;
+        cursor: pointer;
+        height: 55px;
+        margin-left: 35px;
+        width: 250px;
+    }
+
+    .botonDos:hover{
+        background-image: linear-gradient(125deg, #0400d4, #505e88, #2c4197,#154769,#416980,#24848d, #255075);
+        transform: scale(1.1);
+    }
+    
+
+    
+
+    .botonCopy{
+        background-image: linear-gradient(145deg, #0a8199, #152641, #103f66,#092a3a,#06474f,#1c9276, #119c5b);
+        border-radius: 15px;
+        border:1px solid #ffffff;
+        color: #ffffff;
+        cursor: pointer;
+        height: 49px;
+        margin-left: 180px;
+        margin-top: 520px;
+        width: 253px;
+        position: absolute;
+
+    }
+    .botonCopy:hover{
+        background-image: linear-gradient(125deg, #0400d4, #505e88, #2c4197,#154769,#416980,#24848d, #255075);
+        transform: scale(1.1);
+    }
+
+    .informacion{
+        color: black;
+        font-size: 15px;
+    }
