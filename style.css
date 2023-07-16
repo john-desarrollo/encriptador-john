@@ -10,19 +10,20 @@
     
 
     .logo{
-        padding-top: 3px;
+        padding-top: 20px;
         margin-left: 85px;
-        width: 10%;        
+        width: 10%;
+        display: flex;        
     }
     
-    .titulo-principal{
-        
+    .titulo-principal {
         text-align: center;
-        font-size: 70px ; 
-        margin: 0 0 0em;
-        clear: left;
+        font-size: 70px;
+        margin: 0 0 0 6em;
+        padding: 1em 0;
         color: #0e85b4;
-    }
+        display: flex;
+      }
 
     main{
         display: flex;
